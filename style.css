@@ -1,0 +1,430 @@
+/* color hunt link: https://colorhunt.co/palette/b91646dfd8cafbf3e4105652 */
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* font-family: 'Nanum Myeongjo', serif; */
+
+
+/* global classes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0 160px;
+}
+
+h1 h2 h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 650;
+}
+
+p {
+    font-size: 28px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.hero {
+    background-color: #FBF3E4;
+    padding: 5% 160px;
+}
+
+
+/* navbar section */
+
+.navbar {
+    padding: 30px 160px;
+    background-color: #FBF3E4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 28px;
+}
+
+li.nav-item {
+    padding: 0 25px;
+}
+
+
+/* hero section */
+
+.hero-btn {
+    background-color: #105652;
+    color: white;
+    border: #105652;
+    border-radius: 50px;
+    padding: 13px 25px;
+    font-size: 22px;
+}
+
+
+/* trusted section */
+
+.trusted {
+    background-color: #DFD8CA;
+    padding: 50px 160px;
+}
+
+.trusted i {
+    font-size: 32px;
+}
+
+.trusted span {
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+
+/* plans section */
+
+.plans img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.plans {
+    background-color: #FBF3E4;
+    padding: 5% 160px;
+}
+
+.card {
+    background-color: #FBF3E4;
+    text-align: center;
+    margin: 50px 20px 50px 0;
+    width: 480px;
+    border-width: 4px;
+    border-radius: 30px;
+}
+
+.btn-success {
+    background-color: #105652;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.card-pre {
+    box-shadow: 10px 5px 5px;
+}
+
+
+/* features section */
+
+.features {
+    background-color: #FBF3E4;
+    padding: 9% 160px;
+}
+
+.feature-cen img {
+    margin-bottom: 60px;
+}
+
+.feature-cen h4 {
+    margin: 17px 220px;
+}
+
+.fea-img {
+    height: 500px;
+    width: 500px;
+}
+
+.coll-1 {
+    text-align: right;
+    position: relative;
+    top: 99px;
+}
+
+.feature-cen {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fea-row {
+    padding: 5% 0;
+}
+
+.fea-img-1 {
+    position: relative;
+    left: 170px;
+    bottom: 49px;
+}
+
+
+/* products section */
+
+.popular-prod {
+    background-color: #DFD8CA;
+    padding: 5% 160px;
+}
+
+.card-img-pro {
+    height: 300px;
+    width: 400px;
+    margin: 30px 20px;
+}
+
+
+/* testimonials section */
+
+.testimonials {
+    background-color: #FBF3E4;
+    padding: 5% 160px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* cta section */
+
+.cta {
+    background-color: #DFD8CA;
+    padding: 5% 160px;
+}
+
+.btn-col {
+    text-align: center;
+}
+
+.hero-btn-1 {
+    background-color: #FBF3E4;
+    color: black;
+    border-color: #105652;
+    border-radius: 50px;
+    padding: 13px 25px;
+    font-size: 22px;
+}
+
+.hero-btn-1:hover {
+    background-color: #105652;
+    color: white;
+}
+
+
+/* footer section */
+
+footer {
+    padding: 15% 160px 100px 0;
+    background-color: #B91646;
+    opacity: 0.9;
+    color: white;
+}
+
+footer h2 {
+    font-size: 48px;
+    padding-bottom: 18px;
+}
+
+footer p {
+    margin-bottom: 4px;
+}
+
+footer i {
+    font-size: 34px;
+    margin-right: 35px;
+}
+
+footer .flex-row {
+    margin-top: 20px;
+}
+
+.col-mid {
+    text-align: center;
+    position: relative;
+    top: 88px;
+}
+
+.col-end {
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 110px;
+}
+
+@media (max-width: 1000px) {
+    .container-fluid {
+        padding: 0 120px;
+    }
+    h1 h2 h3 {
+        font-family: 'Open Sans', sans-serif;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 650;
+    }
+    p {
+        font-size: 25px;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    /* navbar section */
+    .navbar {
+        padding: 40px 120px;
+    }
+    /* hero section */
+    .hero {
+        background-color: #FBF3E4;
+        padding: 7% 120px;
+        text-align: center;
+    }
+    .hero h1 {
+        padding-bottom: 16px;
+    }
+    .hero p {
+        padding-bottom: 40px;
+    }
+    .hero button {
+        margin-bottom: 0px;
+    }
+    .hero img {
+        width: 700px;
+        height: 700px;
+    }
+    /* trusted section */
+    .trusted {
+        padding: 4% 120px;
+    }
+    .trusted h2 {
+        text-align: center;
+    }
+    /* plans section */
+    .plans {
+        padding: 5% 120px;
+    }
+    .plans h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .card {
+        margin: 25px auto;
+    }
+    /* features section */
+    .features {
+        background-color: #FBF3E4;
+        padding: 9% 120px;
+    }
+    .feature-cen img {
+        margin-bottom: 40px;
+        height: 600px;
+        width: 600px;
+    }
+    .feature-cen h4 {
+        margin: 17px;
+    }
+    .fea-img {
+        height: 600px;
+        width: 600px;
+        position: static;
+    }
+    .feature-cen {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .fea-row {
+        padding: 5% 0;
+    }
+    .spe-div {
+        display: none;
+    }
+    .colu-1 {
+        padding-bottom: 80px;
+    }
+    /* popular products */
+    .popular-prod h2 {
+        text-align: center;
+    }
+    .popular-prod {
+        padding: 5% 120px;
+    }
+    /* testimonials section */
+    .testimonials h2 {
+        text-align: center;
+    }
+    .testimonials {
+        padding: 5% 120PX;
+    }
+    /* cta section */
+    .cta {
+        padding: 4% 120px;
+    }
+    .btn-col button {
+        padding: 10px 100px;
+    }
+    .btn-col {
+        padding: 10px 90px;
+    }
+    .hero-btn-1 {
+        border-width: 0px;
+    }
+    /* navbar section */
+    .col-mid {
+        text-align: left;
+    }
+    .col-end {
+        text-align: left;
+        /* position: relative;
+        top: 110px;
+        left: 110px; */
+    }
+}
+
+@media (max-width:600px) {
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .hero img {
+        width: 300px;
+        height: 300px;
+    }
+    .feature-cen img {
+        margin-bottom: 40px;
+        height: 300px;
+        width: 300px;
+    }
+    .fea-img {
+        height: 300px;
+        width: 300px;
+        position: static;
+    }
+    .popular-prod img {
+        height: 280px;
+        width: 280px;
+    }
+    /* navbar section */
+    .col-end {
+        text-align: left;
+        /* position: relative;
+        top: 110px;
+        left: 110px; */
+    }
+}

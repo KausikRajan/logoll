@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "MBl";
+    src: url(Fonts/MONTSERRAT-BLACK.TTF);
+    
+}
+@font-face {
+    font-family: "Mit";
+    src: url(Fonts/MONTSERRAT-ITALIC.TTF);
+    font-weight: Thin;
+}
+@font-face {
+    font-family: "Mm";
+    src: url(Fonts/MONTSERRAT-MEDIUM.TTF);
+}
+@font-face {
+    font-family: "Mr";
+    src: url(Fonts/MONTSERRAT-REGULAR.TTF);
+}
+@font-face {
+    font-family: "Ml";
+    src: url(Fonts/MONTSERRAT-LIGHT.TTF);
+}
+body{
+
+    background: linear-gradient(180deg, #DE9CFD 0%, #7D42A8 100%, #7D42A8 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+}
+#bg{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(222, 172, 245, 0) 100%);
+    position: absolute;
+    /* display: none; */
+    z-index: -1;
+    transition: 0.2s;
+
+}
+.headerh{
+    padding-top: 12%;
+
+    background-size: 100%;
+    
+    background-image: url(Header.png);
+
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+div.headerh:hover{
+    padding-top: 12%;
+    background-size: 100%;
+    background-image: url(Headerhovered.png);
+    background-repeat: no-repeat;
+
+}
+.bodybg{
+    height: fit-content;
+    background-size: 100%;
+    background-image: url('Body_finalbg.png');
+    background-repeat: no-repeat;
+}
+li,a{
+    
+    font-family: "Mm", sans-serif;
+    font-weight: 1000;
+    color: #5B2676;
+    text-decoration: none;
+    transition: 0.2s;
+}
+li,a:hover{
+    
+    font-family: "Mm", sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    text-decoration: none;  
+}
+a.headlinetexts:hover{
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(191, 27, 194), 0 0 5px rgb(217, 0, 255);
+}
+div#headertexts{ 
+    display: flex;
+    align-items: center;
+    /* background-color: #DE9CFD; */
+}
+ul{
+    padding: 0;
+    margin: auto;
+    /* background-color: #DE9CFD; */
+}
+li{
+    display: inline-block;
+    padding: 10px  20px ;
+    /* background-color: #5B2676; */
+}
+#Logo{
+display: flex;
+}
+#Logoimg{
+    
+    margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+#Search{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 50%;
+    }
+#goto{
+    /* background-color: #DE9CFD; */
+    width: 70%;
+    padding-left: 2%;
+    margin: auto;
+    display: inline-block;
+    font-family: "Mr";
+    font-size: 1.5vw;
+    letter-spacing: 0.49em;
+    font-weight: 50;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+#goto:hover{
+    /* background-color: #DE9CFD; */
+    width: 80%;
+    padding-left: 2%;
+    margin: auto;
+    display: inline-block;
+    font-family: "Mr";
+    font-size: 2vw;
+    letter-spacing: 0.49em;
+    font-weight: 50;
+    text-align: center;
+    color: #5B2676;
+}
+#goto:hover #bg{
+    opacity: 0.5;
+}
+
+.row{
+padding-left: 10%;
+padding-right: 10%;
+}
+.card-title{
+    font-family: "Mm";
+    font-size:1.5vw;
+    text-align: center;
+    color:#DE9CFD;
+    text-shadow: 0 5px 5px black;
+}
+.row{
+    padding-bottom: 20px;
+}
+.card{
+    background: linear-gradient(180deg, #DE9CFD 30%, #0E0016 100%);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-family: "Mm";
+    text-align: center;
+    padding-bottom: 5%;
+}
+h6{
+    font-family: "Ml";
+    font-size: 2vw;
+    font-weight: 700;
+    padding-bottom: 5;
+}
+.row{
+    display: flex;
+}
+
+.titlecat{
+    padding-left: 10%;
+}
+.none{
+    display: none;
+}
